@@ -1,9 +1,16 @@
 function oddNumbers(){
     startpoint = 0;
 
-    if (startpoint / 2 != 0){
+    while (startpoint <= 10){
+
+       
+
+        if ( startpoint % 2 != 0){
+            
+            console.log(startpoint);   
+        }
         startpoint = startpoint + 1;
-        console.log(startpoint);
+ 
     }
 
     // while (startpoint <10){
